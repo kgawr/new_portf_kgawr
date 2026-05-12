@@ -740,33 +740,52 @@
       <p class="section-label">Portfolio</p>
       <h2 class="section-title">Data Projects</h2>
       <div class="projects-grid">
-        <a class="project-card" href="https://github.com/kgawr/weather_anallysis" target="_blank">
-          <p class="project-num">01</p>
-          <p class="project-title">Weather Analysis</p>
+        <div class="project-card" style="cursor:default;">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.6rem;">
+            <div>
+              <p class="project-num">01</p>
+              <p class="project-title">Weather Analysis</p>
+            </div>
+            <a href="https://github.com/kgawr/weather_anallysis" target="_blank"
+               style="font-family:'Space Mono',monospace; font-size:0.72rem; color:var(--accent-active);
+                      border:1px solid var(--accent-active); border-radius:5px; padding:0.3rem 0.7rem;
+                      text-decoration:none; white-space:nowrap;"
+               onmouseover="this.style.background='rgba(0,212,255,0.1)'"
+               onmouseout="this.style.background='transparent'">{ } GitHub →</a>
+          </div>
           <p class="project-desc">Fetches live weather data for Polish cities from Open-Meteo API. Analyses temperature trends, precipitation, wind speed and correlations using Pandas and Plotly.</p>
           <div class="tags"><span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">API</span><span class="tag">Plotly</span></div>
-          <p class="project-link">github.com/kgawr →</p>
-        </a>
-        <a class="project-card" href="https://github.com/kgawr/sql_case_study" target="_blank">
-          <p class="project-num">02</p>
-          <p class="project-title">E-Commerce SQL Case Study</p>
-          <p class="project-desc">Analytical SQL case study on a realistic e-commerce database. Covers revenue analysis, customer segmentation, return rates and window functions.</p>
+          <a href="weather_analysis.html" class="project-link" style="margin-top:0.8rem; display:inline-block;">View charts & analysis →</a>
+        </div>
+
+        <div class="project-card" style="cursor:default;">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.6rem;">
+            <div>
+              <p class="project-num">02</p>
+              <p class="project-title">E-Commerce SQL Case Study</p>
+            </div>
+            <a href="https://github.com/kgawr/sql_case_study" target="_blank"
+               style="font-family:'Space Mono',monospace; font-size:0.72rem; color:var(--accent-active);
+                      border:1px solid var(--accent-active); border-radius:5px; padding:0.3rem 0.7rem;
+                      text-decoration:none; white-space:nowrap;"
+               onmouseover="this.style.background='rgba(0,212,255,0.1)'"
+               onmouseout="this.style.background='transparent'">{ } GitHub →</a>
+          </div>
+          <p class="project-desc">Analytical SQL case study on a realistic e-commerce database. Covers revenue analysis, customer segmentation, return rates and window functions (RANK, CTE).</p>
           <div class="tags"><span class="tag">SQL</span><span class="tag">SQLite</span><span class="tag">Python</span><span class="tag">Pandas</span></div>
-          <p class="project-link">github.com/kgawr →</p>
-        </a>
+          <a href="sql_case_study.html" class="project-link" style="margin-top:0.8rem; display:inline-block;">View charts & analysis →</a>
+        </div>
       </div>
 
       <!-- Power BI — full width row -->
       <div class="project-card" style="margin-top: 1.5rem; cursor: default;">
         <div style="display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.8rem;">
           <div style="display: flex; flex-direction: column; gap: 0.4rem;">
-            <a class="project-card" href="https://github.com/kgawr/Data-Analyst-Portfolio" target="_blank">
             <p class="project-num">03</p>
             <p class="project-title">E-commerce Power BI Dashboard</p>
             <p class="project-desc" style="max-width: 600px;">Interactive Power BI dashboard analysing e-commerce performance — sales trends, category breakdown, regional metrics and KPI tracking.</p>
           </div>
           <div class="tags"><span class="tag">Power BI</span><span class="tag">DAX</span></div>
-          <p class="project-link">github.com/kgawr →</p>
         </div>
         <div style="margin-top: 1.2rem; border-radius: 8px; overflow: hidden; border: 1px solid var(--border); width: 100%;">
           <iframe title="ecommerce_portfolio" width="100%" height="500"
